@@ -1,0 +1,15 @@
+# === Core runtime (DeepFace + OpenCV) ===
+deepface==0.0.95
+
+# OpenCV (wystarczy zwykła wersja; dla MediaPipe użyj contrib w drugim pliku)
+opencv-python==4.9.0.80
+
+# NumPy zgodne z TF 2.20
+numpy==1.26.4
+
+# Wizualizacje w notatniku (miniatury, podglądy)
+matplotlib==3.10.7
+
+# DeepFace importuje tf-keras podczas startu, więc TF jest potrzebny
+tensorflow==2.20.0
+tf-keras==2.20.1
